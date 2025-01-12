@@ -2,7 +2,7 @@ Physics-informed neural networks
 ==============================
 In this repository, a PyTorch implementation for the solution of Laplace equation is presented.
 THis will be extended to Helmholtz equation in near future. 
-Project Organization on Github
+
 ------------
 
     ├── LICENSE
@@ -37,6 +37,6 @@ Other geometry configurations can be handled via coordinate transformation
 
 2. Notebook2: This is a playground script to implement custom gradient calculations and to visualize tensor gradients etc.  
 
-3. Notebooks 3a / 3b: Deep learning models. Notebook 3a will deal with the Helmholtz problem where as notebook 3b implements the Laplace equation, including model building, hyperparameter choices train-test loops and a final visualization of the analytical solution vs. PINN solution. 
+3. Notebooks 3a / 3b: Deep learning models. Notebook 3a will deal with the Helmholtz problem where as notebook 3b implements the Laplace equation, including model building, hyperparameter values, train-test loop and a final visualization of the analytical solution vs. PINN solution. 
 Currently, implemented architecture is ANN. Other model options will be tried. 
 
